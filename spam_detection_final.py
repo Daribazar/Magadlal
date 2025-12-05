@@ -160,7 +160,7 @@ print("\n6. Үр дүнг харьцуулж байна...")
 results_df = pd.DataFrame(results).T
 print("\n" + str(results_df[['accuracy', 'precision', 'recall', 'f1_score']].round(4)))
 
-print("\n⏱️  ХУРДНЫ ХАРЬЦУУЛАЛТ:")
+print("\n  ХУРДНЫ ХАРЬЦУУЛАЛТ:")
 print(f"{'Загвар':<20} {'Сургалт (сек)':<15} {'Таамаглал (ms)':<15}")
 print("-" * 50)
 for model_name in results.keys():
